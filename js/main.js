@@ -503,28 +503,8 @@ const translations = {
         productPEB: "المباني ذات الهيكل المسبق",
         productPEBSub: "المباني المعدنية المخصصة",
         
-        // Product Detail Translations
-        productTitle: "غرف التوربينات",
-        productTitleAr: "Turbine Houses",
-        productTagline: "مرافق توليد الطاقة",
-        overview: "نظرة عامة",
-        productSubtitle: "هياكل توليد الطاقة",
-        productDesc1: "نصمم ونصنع غرف التوربينات وهياكل محطات الطاقة للتوربينات الغازية والبخارية. يستخدم فريقنا الهندسي برامج تحليل إنشائية متقدمة لضمان السلامة الهيكلية والمقاومة الزلزالية والامتثال للمعايير الدولية.",
-        productDesc2: "نعمل مع شركات الطاقة الرائدة لتقديم حلول إنشائية موثوقة لمشاريع الطاقة. تضمن عملياتنا المعتمدة من ISO 9001:2015 مراقبة الجودة طوال التصميم والتصنيع والمعالجة السطحية والتركيب.",
-        feat1: "أساسات وهياكل دعم توربينات المولدات",
-        feat2: "هياكل مباني محطات الطاقة الكاملة",
-        feat3: "منصات دعم المعدات الثقيلة",
-        feat4: "دعم مداخن العادم وقنوات غازات المداخن",
-        feat5: "مباني غرف التحكم والعمليات",
-        feat6: "منصات المحولات والمحطات الفرعية الكهربائية",
-        specProductLabel: "نوع المنتج",
-        specProduct: "غرف التوربينات وهياكل الطاقة",
-        specCertLabel: "الشهادة",
-        specSoftwareLabel: "برامج التصميم",
-        specSoftware: "SAP2000, ETABS, SAFE, PROKON",
-        specServicesLabel: "الخدمات",
-        specServicesText: "التصميم، التصنيع، المعالجة السطحية، التسليم، التركيب",
-        otherProducts: "منتجات أخرى",
+        // Product Detail Translations - ARABIC
+        // Each product has its own specific keys below
         
         // Buildings product
         buildingsTitle: "المباني الصناعية الثقيلة",
