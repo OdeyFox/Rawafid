@@ -46,9 +46,9 @@
 
     <header class="product-detail-header product-hero">
         <div class="hero-content">
-            <h1 id="productTitle">Cargo Terminals</h1>
-            <p class="hero-ar" id="productTitleAr">محطات الشحن</p>
-            <p class="hero-tagline" id="productTagline">Logistics & Freight Infrastructure</p>
+            <h1 data-i18n="cargoTitle">Cargo Terminals</h1>
+            <p class="hero-ar" data-i18n="cargoTitleAr">محطات الشحن</p>
+            <p class="hero-tagline" data-i18n="cargoTagline">Logistics & Freight Infrastructure</p>
         </div>
     </header>
     
@@ -56,35 +56,35 @@
         <div class="product-detail-grid">
             <div class="product-detail-image product-image"></div>
             <div class="product-detail-info">
-                <h2 id="overview">Overview</h2>
-                <p class="subtitle" id="productSubtitle">Freight Handling Facilities</p>
-                <p id="productDesc1">We fabricate robust cargo terminal structures for airports, seaports, dry ports, and land border crossings. Our structures are designed to support efficient cargo handling operations with heavy-duty loading capacities, crane rail systems, and material handling equipment.</p>
-                <p id="productDesc2">We deliver complete logistics infrastructure including large-span warehouse buildings, covered freight terminals, truck loading docks, conveyor bridge support structures, refrigerated cold storage facilities, and multi-level logistics platforms. All steel structures are fabricated with quality control procedures.</p>
+                <h2 data-i18n="overview">Overview</h2>
+                <p class="subtitle" data-i18n="cargoOverview">Freight Handling Facilities</p>
+                <p data-i18n="cargoDesc1">We fabricate robust cargo terminal structures for airports, seaports, dry ports, and land border crossings.</p>
+                <p data-i18n="cargoDesc2">We deliver complete logistics infrastructure including large-span warehouse buildings and covered freight terminals.</p>
                 
-                <ul class="features-list" id="featuresList">
-                    <li>Large-span cargo warehouse buildings (up to 50m span)</li>
-                    <li>Covered freight terminal structures with overhead cranes</li>
-                    <li>Truck loading bay canopies and dock levelers</li>
-                    <li>Conveyor belt support bridges and platforms</li>
-                    <li>Temperature-controlled cold storage facilities</li>
-                    <li>Multi-level logistics sorting platforms</li>
+                <ul class="features-list">
+                    <li data-i18n="cargoFeat1">Large-span cargo warehouse buildings (up to 50m span)</li>
+                    <li data-i18n="cargoFeat2">Covered freight terminal structures with overhead cranes</li>
+                    <li data-i18n="cargoFeat3">Truck loading bay canopies and dock levelers</li>
+                    <li data-i18n="cargoFeat4">Conveyor belt support bridges and platforms</li>
+                    <li data-i18n="cargoFeat5">Temperature-controlled cold storage facilities</li>
+                    <li data-i18n="cargoFeat6">Multi-level logistics sorting platforms</li>
                 </ul>
             </div>
         </div>
         
         <table class="specs-table">
-            <tr><td id="specProductLabel">Product Type</td><td id="specProduct">Cargo Terminals & Logistics Structures</td></tr>
-            <tr><td id="specCertLabel">Certification</td><td>ISO 9001:2015, AWS D1.1</td></tr>
-            <tr><td id="specSoftwareLabel">Design Software</td><td id="specSoftware">ETABS, SAFE, AutoCAD, Autodesk Advance Steel</td></tr>
-            <tr><td id="specServicesLabel">Services</td><td id="specServicesText">Design, Fabrication, Surface Treatment, Delivery, Installation</td></tr>
+            <tr><td data-i18n="specProductLabel">Product Type</td><td data-i18n="specProduct">Cargo Terminals & Logistics Structures</td></tr>
+            <tr><td data-i18n="specCertLabel">Certification</td><td>ISO 9001:2015, AWS D1.1</td></tr>
+            <tr><td data-i18n="specSoftwareLabel">Design Software</td><td data-i18n="specSoftware">ETABS, SAFE, AutoCAD, Autodesk Advance Steel</td></tr>
+            <tr><td data-i18n="specServicesLabel">Services</td><td data-i18n="specServicesText">Design, Fabrication, Surface Treatment, Delivery, Installation</td></tr>
         </table>
         
         <div class="related-products">
-            <h3 id="otherProducts">Other Products</h3>
+            <h3 data-i18n="otherProducts">Other Products</h3>
             <div class="services-grid">
-                <a href="steel-bridges.html" class="service-card"><h3>Steel Bridges</h3><p>Infrastructure</p></a>
-                <a href="heavy-duty-buildings.html" class="service-card"><h3>Heavy Duty Buildings</h3><p>Industrial</p></a>
-                <a href="storage-tanks-silos.html" class="service-card"><h3>Storage Tanks</h3><p>Industrial</p></a>
+                <a href="steel-bridges.html" class="service-card"><h3 data-i18n="productBridges">Steel Bridges</h3><p data-i18n="productBridgesSub">Infrastructure</p></a>
+                <a href="heavy-duty-buildings.html" class="service-card"><h3 data-i18n="productBuildings">Heavy Duty Buildings</h3><p data-i18n="productBuildingsSub">Industrial</p></a>
+                <a href="storage-tanks-silos.html" class="service-card"><h3 data-i18n="productTanks">Storage Tanks</h3><p data-i18n="productTanksSub">Industrial</p></a>
             </div>
         </div>
     </div>
@@ -114,102 +114,6 @@
         </div>
     </footer>
 
-    <script>
-        const translations = {
-            en: {
-                productTitle: "Cargo Terminals",
-                productTitleAr: "محطات الشحن",
-                productTagline: "Logistics & Freight Infrastructure",
-                overview: "Overview",
-                productSubtitle: "Freight Handling Facilities",
-                productDesc1: "We fabricate robust cargo terminal structures for airports, seaports, dry ports, and land border crossings. Our structures are designed to support efficient cargo handling operations with heavy-duty loading capacities, crane rail systems, and material handling equipment.",
-                productDesc2: "We deliver complete logistics infrastructure including large-span warehouse buildings, covered freight terminals, truck loading docks, conveyor bridge support structures, refrigerated cold storage facilities, and multi-level logistics platforms.",
-                features: [
-                    "Large-span cargo warehouse buildings (up to 50m span)",
-                    "Covered freight terminal structures with overhead cranes",
-                    "Truck loading bay canopies and dock levelers",
-                    "Conveyor belt support bridges and platforms",
-                    "Temperature-controlled cold storage facilities",
-                    "Multi-level logistics sorting platforms"
-                ],
-                specProductLabel: "Product Type",
-                specProduct: "Cargo Terminals & Logistics Structures",
-                specCertLabel: "Certification",
-                specSoftwareLabel: "Design Software",
-                specSoftware: "ETABS, SAFE, AutoCAD, Autodesk Advance Steel",
-                specServicesLabel: "Services",
-                specServicesText: "Design, Fabrication, Surface Treatment, Delivery, Installation",
-                otherProducts: "Other Products"
-            },
-            ar: {
-                productTitle: "محطات الشحن",
-                productTitleAr: "Cargo Terminals",
-                productTagline: "البنية التحتية للوجستيات والشحن",
-                overview: "نظرة عامة",
-                productSubtitle: "مرافق معالجة البضائع",
-                productDesc1: "نصنع هياكل محطات شحن قوية للمطارات والموانئ البحرية والموانئ الجافة والمعابر الحدودية البرية. تم تصميم هياكلنا لدعم عمليات معالجة البضائع بكفاءة مع قدرات تحميل ثقيلة.",
-                productDesc2: "نقدم بنية تحتية لوجستية كاملة تشمل مباني مستودعات واسعة ومحطات شحن مغطاة وأرصفة تحميل الشاحنات وجسور دعم الناقلات ومرافق تخزين بارد ومنصات لوجستية متعددة المستويات.",
-                features: [
-                    "مباني مستودعات شحن واسعة (حتى 50 متر)",
-                    "هياكل محطات شحن مغطاة مع رافعات علوية",
-                    "أغطية أرصفة تحميل الشاحنات ومعدلات المستوى",
-                    "جسور ومنصات دعم أحزمة النقل",
-                    "مرافق تخزين بارد يتم التحكم في درجة حرارتها",
-                    "منصات فرز لوجستية متعددة المستويات"
-                ],
-                specProductLabel: "نوع المنتج",
-                specProduct: "محطات الشحن والهياكل اللوجستية",
-                specCertLabel: "الشهادة",
-                specSoftwareLabel: "برامج التصميم",
-                specSoftware: "ETABS, SAFE, AutoCAD, Autodesk Advance Steel",
-                specServicesLabel: "الخدمات",
-                specServicesText: "التصميم، التصنيع، المعالجة السطحية، التسليم، التركيب",
-                otherProducts: "منتجات أخرى"
-            }
-        };
-
-        let currentLang = 'en';
-
-        function updateContent(lang) {
-            currentLang = lang;
-            const t = translations[lang];
-            
-            document.getElementById('productTitle').textContent = t.productTitle;
-            document.getElementById('productTitleAr').textContent = t.productTitleAr;
-            document.getElementById('productTagline').textContent = t.productTagline;
-            document.getElementById('overview').textContent = t.overview;
-            document.getElementById('productSubtitle').textContent = t.productSubtitle;
-            document.getElementById('productDesc1').textContent = t.productDesc1;
-            document.getElementById('productDesc2').textContent = t.productDesc2;
-            
-            const featuresList = document.getElementById('featuresList');
-            featuresList.innerHTML = '';
-            t.features.forEach(feat => {
-                const li = document.createElement('li');
-                li.textContent = feat;
-                featuresList.appendChild(li);
-            });
-            
-            document.getElementById('specProductLabel').textContent = t.specProductLabel;
-            document.getElementById('specProduct').textContent = t.specProduct;
-            document.getElementById('specCertLabel').textContent = t.specCertLabel;
-            document.getElementById('specSoftwareLabel').textContent = t.specSoftwareLabel;
-            document.getElementById('specSoftware').textContent = t.specSoftware;
-            document.getElementById('specServicesLabel').textContent = t.specServicesLabel;
-            document.getElementById('specServicesText').textContent = t.specServicesText;
-            document.getElementById('otherProducts').textContent = t.otherProducts;
-        }
-
-        document.addEventListener('DOMContentLoaded', function() {
-            const savedLang = localStorage.getItem('selectedLang') || 'en';
-            document.documentElement.lang = savedLang;
-            document.body.dir = savedLang === 'ar' ? 'rtl' : 'ltr';
-            document.querySelectorAll('.lang-btn').forEach(btn => {
-                btn.classList.toggle('active', btn.dataset.lang === savedLang);
-            });
-            updateContent(savedLang);
-        });
-    </script>
     <script src="../js/main.js"></script>
 </body>
 </html>
